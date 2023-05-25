@@ -21,5 +21,17 @@
             }
         }
     },
+    "ui/loader": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "hello-world/ui/loader",
+        "config": {
+            "teambit.react/react-env@0.0.63": {},
+            "teambit.envs/envs": {
+                "env": "teambit.react/react-env"
+            }
+        }
+    },
     "$schema-version": "15.0.0"
 }

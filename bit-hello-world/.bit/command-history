@@ -12,3 +12,15 @@
 2023-05-25T19:52:59.641Z end install express @types/express, code: 0
 2023-05-25T20:09:15.610Z start status
 2023-05-25T20:10:31.561Z end status, code: 0
+2023-05-25T20:14:58.225Z start create react ui/loader
+2023-05-25T20:16:01.692Z end create react ui/loader, code: 0
+2023-05-25T20:26:03.985Z start status
+2023-05-25T20:26:30.523Z end status, code: 0
+2023-05-25T20:27:30.185Z start compile
+2023-05-25T20:27:45.908Z end compile, code: 0
+2023-05-25T20:27:52.996Z start status
+2023-05-25T20:28:04.518Z end status, code: 0
+2023-05-25T20:28:19.056Z start install @types/react @types/react-dom
+2023-05-25T20:30:07.230Z end install @types/react @types/react-dom, code: 0
+2023-05-25T20:30:43.728Z start status
+2023-05-25T20:31:15.619Z end status, code: 0
