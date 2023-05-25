@@ -1,0 +1,10 @@
+{
+    "name": "bit-hello-world",
+    "remotes": {},
+    "version": "1.0.494",
+    "lanes": {
+        "current": "main",
+        "tracking": [],
+        "new": []
+    }
+}
