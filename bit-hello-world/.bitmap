@@ -9,5 +9,17 @@
  */
 
 {
+    "routes/goodbye": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "hello-world/routes/goodbye",
+        "config": {
+            "teambit.node/node@0.0.32": {},
+            "teambit.envs/envs": {
+                "env": "teambit.node/node"
+            }
+        }
+    },
     "$schema-version": "15.0.0"
 }
