@@ -9,6 +9,18 @@
  */
 
 {
+    "production-urls": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ms-demo/production-urls",
+        "config": {
+            "teambit.harmony/node": {},
+            "teambit.envs/envs": {
+                "env": "teambit.harmony/node"
+            }
+        }
+    },
     "status-service": {
         "scope": "sidneicsfilho.ms-demo",
         "version": "0.0.1",
