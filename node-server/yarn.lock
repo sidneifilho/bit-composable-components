@@ -36,6 +36,18 @@
   dependencies:
     express "^4.18.2"
 
+"@sidneicsfilho/ms-demo.production-urls@0.0.2":
+  version "0.0.2"
+  resolved "https://node.bit.cloud/@sidneicsfilho/ms-demo.production-urls/-/@sidneicsfilho-ms-demo.production-urls-0.0.2.tgz#528b4fd13f8a4cb16f9aa0a3b3f20418282a58ce"
+  integrity sha1-UotP0T+KTLFvmqCjs/IEGCgqWM4=
+
+"@sidneicsfilho/ms-demo.routes.is-up@^0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.cloud/@sidneicsfilho/ms-demo.routes.is-up/-/@sidneicsfilho-ms-demo.routes.is-up-0.0.1.tgz#02dc03eb69b32480ad8581d45b8b57caed82f731"
+  integrity sha1-AtwD62mzJICthYHUW4tXyu2C9zE=
+  dependencies:
+    "@sidneicsfilho/ms-demo.production-urls" "0.0.2"
+
 "@sidneicsfilho/ms-demo.status-service@^0.0.1":
   version "0.0.1"
   resolved "https://node.bit.cloud/@sidneicsfilho/ms-demo.status-service/-/@sidneicsfilho-ms-demo.status-service-0.0.1.tgz#4faada69878725136d37e54b75a67782ab7a0680"
