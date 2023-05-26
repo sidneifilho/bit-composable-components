@@ -10,5 +10,10 @@ export function productionUrls() {
       description: 'our cloud site',
       id: 'cloud',
     },
+    'new-site': {
+      url: 'https://bit.new',
+      description: 'our new site',
+      id: 'new',
+    },
   };
 }
