@@ -2,6 +2,13 @@
 # yarn lockfile v1
 
 
+"@babel/runtime@7.20.0":
+  version "7.20.0"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.20.0.tgz#824a9ef325ffde6f78056059db3168c08785e24a"
+  integrity sha512-NDYdls71fTXoU8TZHfbBWg7DiZfNzClcKui/+kyi6ppD2L1qnWW3VV6CjtaBXSUGGhiTWJ6ereOIkUvenif66Q==
+  dependencies:
+    regenerator-runtime "^0.13.10"
+
 "@learnbit/microservices.constants.production-urls@0.0.1":
   version "0.0.1"
   resolved "https://node.bit.cloud/@learnbit/microservices.constants.production-urls/-/@learnbit-microservices.constants.production-urls-0.0.1.tgz#713adf76939ad30b68eb2ed4c8ebb84372ae3ae8"
@@ -27,6 +34,15 @@
   resolved "https://node.bit.cloud/@sidneicsfilho/hello-world.routes.goodbye/-/@sidneicsfilho-hello-world.routes.goodbye-0.0.1.tgz#ede63b5f75a5850cb8bfea684be42d0b6800dc7c"
   integrity sha1-7eY7X3WlhQy4v+poS+QtC2gA3Hw=
   dependencies:
+    express "^4.18.2"
+
+"@sidneicsfilho/ms-demo.status-service@^0.0.1":
+  version "0.0.1"
+  resolved "https://node.bit.cloud/@sidneicsfilho/ms-demo.status-service/-/@sidneicsfilho-ms-demo.status-service-0.0.1.tgz#4faada69878725136d37e54b75a67782ab7a0680"
+  integrity sha1-T6raaYeHJRNtN+VLdaZ3gqt6BoA=
+  dependencies:
+    "@babel/runtime" "7.20.0"
+    core-js "^3.0.0"
     express "^4.18.2"
 
 accepts@~1.3.8:
@@ -94,6 +110,11 @@ cookie@0.5.0:
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/cookie/-/cookie-0.5.0.tgz#d1f5d71adec6558c58f389987c366aa47e994f8b"
   integrity sha512-YZ3GUyn/o8gfKJlnlX7g7xq4gyO6OSuhGPKaaGssGB2qgDUS0gPgtTvoyZLTt9Ab6dC4hfc9dV5arkvc/OCmrw==
+
+core-js@^3.0.0:
+  version "3.30.2"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.30.2.tgz#6528abfda65e5ad728143ea23f7a14f0dcf503fc"
+  integrity sha512-uBJiDmwqsbJCWHAwjrx3cvjbMXP7xD72Dmsn5LOJpiRmE3WbBbN5rCqQ2Qh6Ek6/eOrjlWngEynBWo4VxerQhg==
 
 cors@^2.8.5:
   version "2.8.5"
@@ -378,6 +399,11 @@ raw-body@2.5.1:
     http-errors "2.0.0"
     iconv-lite "0.4.24"
     unpipe "1.0.0"
+
+regenerator-runtime@^0.13.10:
+  version "0.13.11"
+  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.11.tgz#f6dca3e7ceec20590d07ada785636a90cdca17f9"
+  integrity sha512-kY1AZVr2Ra+t+piVaJ4gxaFaReZVH40AKNo7UCX6W+dEwBo/2oZJzqfuN1qLq1oL45o56cPaTXELwrTh8Fpggg==
 
 safe-buffer@5.2.1:
   version "5.2.1"
