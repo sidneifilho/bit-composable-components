@@ -10,7 +10,7 @@
     "@learnbit/microservices.network-profilers.check-ok-status": "^0.0.1",
     "@learnbit/microservices.routes.is-up": "^0.0.2",
     "@sidneicsfilho/hello-world.routes.goodbye": "^0.0.1",
-    "@sidneicsfilho/ms-demo.routes.is-up": "^0.0.1",
+    "@sidneicsfilho/ms-demo.routes.is-up": "^0.0.2",
     "@sidneicsfilho/ms-demo.status-service": "^0.0.1",
     "cors": "^2.8.5",
     "express": "^4.18.2"
