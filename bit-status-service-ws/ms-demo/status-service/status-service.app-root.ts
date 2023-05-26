@@ -1,6 +1,7 @@
 import Application from 'express';
 import {getPort} from './get-port';
-import {getMockRoute} from './mock-route';
+
+import { getRoutes } from './get-routes'
 
 export const expressApp = async () => {
   const app = Application();
@@ -12,8 +13,7 @@ export const expressApp = async () => {
 };
 
 function registerRoutes(app: Application.Application) {
-  const mockRoute = getMockRoute();
-  const routes = [mockRoute];
+  const routes = getRoutes();
   routes.forEach(route => {
     app[route.method](route.route, route.middlewares);
   })

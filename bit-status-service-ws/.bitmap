@@ -23,7 +23,7 @@
     },
     "status-service": {
         "scope": "sidneicsfilho.ms-demo",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "ms-demo/status-service"
     },

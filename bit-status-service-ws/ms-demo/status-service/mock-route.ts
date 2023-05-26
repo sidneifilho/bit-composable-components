@@ -3,7 +3,7 @@ import type { Route } from './route';
 export function getMockRoute(): Route {
   return {
     method: 'get',
-    route: '/',
+    route: '/hello',
     middlewares: [async (req, res) => res.send('hello world')]
   }
 }
